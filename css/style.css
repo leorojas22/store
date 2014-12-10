@@ -1,0 +1,44 @@
+body {
+	
+	font-family: 'Open Sans', verdana, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	color: black;
+	
+}
+
+
+
+.headerDiv {
+	width: 80%;
+	min-width: 800px;
+	min-height: 100px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.headerTitleText {
+	font-size: 64px;
+	font-weight: bold;
+	color: #780000;	
+}
+
+.headerSubText {
+	font-size: 24px;
+	font-weight: bold;
+	color: #3b3b3b;
+}
+
+.bodyDiv {
+	width: 80%;
+	min-width: 800px;
+	min-height: 100px;
+	border: solid lightgrey 1px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,.05);
+}
