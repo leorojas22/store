@@ -8,7 +8,15 @@ body {
 	
 }
 
+a {
+	color: #0078ff;
+	text-decoration: none;	
+}
 
+a:hover {
+	color: #0065d6;
+	text-decoration: underline;	
+}
 
 .headerDiv {
 	width: 80%;
@@ -24,6 +32,8 @@ body {
 	font-size: 64px;
 	font-weight: bold;
 	color: #780000;	
+	float: left;
+	padding-left: 20px;
 }
 
 .headerSubText {
@@ -32,8 +42,61 @@ body {
 	color: #3b3b3b;
 }
 
+.loginSection {
+	width: 40%;
+	height: 100px;
+	float: right;
+	padding: 10px;
+	text-align: right;
+}
+
+.loginTextSection {
+	display: inline-block;
+	font-size: 12px;
+	padding-top: 20px;
+	margin-right: 15px;
+	font-weight: bold;
+	color: #6d6d6d;
+	vertical-align: top;
+	text-align: left;
+}
+
+.loginTextSection p {
+	margin: 0px;	
+}
+
+.loginTextSection a {
+	display: inline-block;
+	padding-top: 5px;
+	font-weight: normal;	
+}
+
+.loginTextBox {
+	width: 150px;
+	border: solid lightgrey 1px;
+	padding: 3px;
+	font-family: 'Open Sans', verdana, sans-serif;
+}
+
+.loginSubmitButton {
+	padding: 5px 15px;
+	font-family: 'Open Sans', verdana, sans-serif;
+	margin-top: 5px;
+	border: solid rgba(0,0,0,.16) 1px;
+	background-color: rgba(0,0,0,.15);
+	cursor: pointer;
+}
+
+.loginSubmitButton:hover {
+	background-color: rgba(0,0,0,.25);
+}
+
+.clear {
+	clear: both;
+}
+
 .bodyDiv {
-	width: 80%;
+	width: 78%;
 	min-width: 800px;
 	min-height: 100px;
 	border: solid lightgrey 1px;
@@ -41,4 +104,65 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(0,0,0,.05);
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+.pageTitle {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 5px;	
+}
+	
+.breadCrumb {
+	position: relative;
+	height: 50px;
+	font-size: 11px;
+}
+
+
+label {
+	display: inline-block;
+	width: 150px;
+	font-weight: bold;
+}
+
+.textBox {
+	width: 200px;
+	border: solid lightgrey 1px;
+	padding: 5px;
+	font-family: 'Open Sans', verdana, sans-serif;
+	margin-bottom: 20px;
+}
+
+.submitButton {
+	padding: 5px 10px;
+	border: solid lightgrey 1px;
+	font-family: 'Open Sans', verdana, sans-serif;
+	border: solid rgba(0,0,0,.16) 1px;
+	background-color: rgba(0,0,0,.15);
+	cursor: pointer;
+}
+
+.submitButton:hover {
+	background-color: rgba(0,0,0,.25);
+}
+
+.errorInfo {
+	background-color: rgba(0,0,0,.15);
+	border: dotted rgba(0,0,0,.3) 1px;
+	padding: 5px;
+	position: relative;
+	width: 45%;
+	margin-bottom: 20px;
+}
+
+.errorInfo ul {
+	padding-left: 10px;
+	list-style-type: none;	
+}
+.errorInfo ul li {
+	color: rgba(255,0,0,.85);
 }

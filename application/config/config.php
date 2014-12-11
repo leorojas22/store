@@ -1,7 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-define("MAIN_ROOT", "http://localhost/ci/store/");
-
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
